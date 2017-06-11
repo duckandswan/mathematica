@@ -1,0 +1,193 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5645,        184]
+NotebookOptionsPosition[      5019,        158]
+NotebookOutlinePosition[      5375,        174]
+CellTagsIndexPosition[      5332,        171]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["2.4", "Subsection",
+ CellChangeTimes->{{3.702615323961987*^9, 3.702615332913858*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   FractionBox[
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"\[ScriptI]", "=", "0"}], "\[ScriptN]"], 
+     SubscriptBox["\[ScriptX]", "\[ScriptI]"]}], "\[ScriptN]"],
+   FontSize->12], 
+  StyleBox["=",
+   FontSize->12], 
+  StyleBox[
+   OverscriptBox["\[ScriptX]", "-"],
+   FontSize->10]}]], "Input",
+ CellChangeTimes->{{3.702615352516541*^9, 3.7026154353978662`*^9}, {
+   3.702615547318828*^9, 3.7026155568383703`*^9}, {3.702615620617228*^9, 
+   3.702615633407613*^9}, {3.702616692563223*^9, 3.702616707646366*^9}, 
+   3.702616743882053*^9, {3.702616845982131*^9, 3.7026168465691566`*^9}, {
+   3.702616880441668*^9, 3.702616902649284*^9}, {3.702617952807063*^9, 
+   3.702618011639638*^9}, 3.702618235937406*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["\[ScriptS]", "2"], "=", 
+  StyleBox[
+   FractionBox[
+    RowBox[{
+     UnderoverscriptBox["\[Sum]", 
+      RowBox[{"\[ScriptI]", "=", "0"}], "\[ScriptN]"], 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        SubscriptBox["\[ScriptX]", "\[ScriptI]"], "-", 
+        OverscriptBox["\[ScriptX]", "-"]}], ")"}], "2"]}], 
+    RowBox[{"\[ScriptN]", "-", "1"}]],
+   FontSize->12]}]], "Input",
+ CellChangeTimes->{{3.7026181139344063`*^9, 3.702618146170295*^9}, {
+  3.702618196703463*^9, 3.702618205671043*^9}, {3.702618369328433*^9, 
+  3.7026183882914553`*^9}}],
+
+Cell[BoxData[
+ RowBox[{" ", 
+  RowBox[{
+   StyleBox[
+    FractionBox[
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{"\[ScriptN]", "-", "\[ScriptCapitalN]"}], ")"}], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[ScriptK]", " ", "\[ScriptS]"}], ")"}], "2"]}], 
+     RowBox[{"\[ScriptN]", "-", "1"}]],
+    FontSize->12], 
+   StyleBox["\[LessEqual]",
+    FontSize->12], " ", 
+   SuperscriptBox["\[ScriptS]", "2"]}]}]], "Input",
+ CellChangeTimes->{{3.702618655332697*^9, 3.702618664915373*^9}, 
+   3.7026193240903063`*^9, {3.702620032740251*^9, 3.702620050245552*^9}, 
+   3.702620400882379*^9, {3.7026221351260767`*^9, 3.702622140400683*^9}, {
+   3.702622295856896*^9, 3.7026223260249777`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[ScriptN]", "-", "\[ScriptCapitalN]"}], "\[LessEqual]", 
+  FractionBox[
+   RowBox[{"\[ScriptN]", "-", "1"}], 
+   SuperscriptBox["\[ScriptK]", "2"]]}]], "Input",
+ CellChangeTimes->{{3.702618899912814*^9, 3.702618943541271*^9}, {
+   3.702620203519414*^9, 3.7026202112920856`*^9}, 3.702620406157559*^9, {
+   3.702622302489851*^9, 3.70262233930354*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\[ScriptCapitalN]", "\[GreaterEqual]", 
+  RowBox[{"\[ScriptN]", "-", 
+   FractionBox[
+    RowBox[{"\[ScriptN]", "-", "1"}], 
+    SuperscriptBox["\[ScriptK]", "2"]]}]}]], "Input",
+ CellChangeTimes->{
+  3.702620334380817*^9, 3.702620410501779*^9, {3.702622838631956*^9, 
+   3.702622842138979*^9}, {3.702623489667327*^9, 3.702623503586793*^9}}],
+
+Cell[BoxData[
+ RowBox[{" ", 
+  RowBox[{
+   StyleBox[
+    FractionBox[
+     RowBox[{"\[ScriptCapitalN]", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"\[ScriptK]", " ", "\[ScriptS]"}], ")"}], "2"]}], 
+     RowBox[{"\[ScriptN]", "-", "1"}]],
+    FontSize->12], 
+   StyleBox["\[LessEqual]",
+    FontSize->12], " ", 
+   SuperscriptBox["\[ScriptS]", "2"]}]}]], "Input",
+ CellChangeTimes->{{3.702624368447316*^9, 3.702624394254589*^9}, {
+   3.7026250470038443`*^9, 3.702625050350925*^9}, 3.7026254913800383`*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"D", "[", 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      SuperscriptBox["\[ScriptS]", "2"], "+", 
+      SuperscriptBox["\[ScriptB]", "2"]}], 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"\[ScriptK]", " ", "\[ScriptS]"}], " ", "+", "\[ScriptB]"}], 
+       ")"}], "2"]], ",", "\[ScriptB]"}], "]"}], "//", "Simplify"}]], "Input",\
+
+ CellChangeTimes->{{3.70262610389723*^9, 3.702626153084066*^9}, {
+  3.70262625932327*^9, 3.702626269927456*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"2", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"\[ScriptB]", " ", "\[ScriptK]"}], "-", "\[ScriptS]"}], ")"}], 
+   " ", "\[ScriptS]"}], 
+  SuperscriptBox[
+   RowBox[{"(", 
+    RowBox[{"\[ScriptB]", "+", 
+     RowBox[{"\[ScriptK]", " ", "\[ScriptS]"}]}], ")"}], "3"]]], "Output",
+ CellChangeTimes->{
+  3.702626157383563*^9, {3.7026262640671587`*^9, 3.702626271421199*^9}}]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 602},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September 9, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 91, 1, 44, "Subsection"],
+Cell[674, 25, 764, 19, 48, "Input"],
+Cell[1441, 46, 608, 17, 57, "Input"],
+Cell[2052, 65, 709, 19, 49, "Input"],
+Cell[2764, 86, 385, 8, 50, "Input"],
+Cell[3152, 96, 365, 8, 50, "Input"],
+Cell[3520, 106, 521, 15, 49, "Input"],
+Cell[CellGroupData[{
+Cell[4066, 125, 507, 15, 54, "Input"],
+Cell[4576, 142, 415, 12, 85, "Output"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

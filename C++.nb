@@ -1,0 +1,136 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      3596,        127]
+NotebookOptionsPosition[      2858,         97]
+NotebookOutlinePosition[      3295,        114]
+CellTagsIndexPosition[      3252,        111]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"FromDigits", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"2", ",", "0", ",", "2", ",", "1", ",", "2", ",", "15"}], "}"}], 
+   ",", "16"}], "]"}]], "Input",
+ CellChangeTimes->{{3.52401073390625*^9, 3.524010802546875*^9}, {
+  3.524011941921875*^9, 3.524011942171875*^9}}],
+
+Cell[BoxData["33690143"], "Output",
+ CellChangeTimes->{{3.5240107284375*^9, 3.5240108033125*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegerDigits", "[", 
+  RowBox[{
+   RowBox[{"FromDigits", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"2", ",", "0", ",", "2", ",", "1", ",", "2", ",", "14"}], "}"}],
+      ",", "16"}], "]"}], ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.52401092790625*^9, 3.524010941046875*^9}, {
+   3.524011005890625*^9, 3.524011012890625*^9}, 3.5240118984375*^9, {
+   3.524011943625*^9, 3.52401194384375*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", ",", "0", 
+   ",", "1", ",", "0", ",", "0", ",", "0", ",", "0", ",", "1", ",", "0", ",", 
+   "0", ",", "1", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.524010929703125*^9, 3.52401094184375*^9}, {
+   3.52401100715625*^9, 3.524011013671875*^9}, 3.524011899859375*^9, 
+   3.52401194625*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegerDigits", "[", 
+  RowBox[{
+   RowBox[{"FromDigits", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+      "1", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1"}], 
+      "}"}], ",", "2"}], "]"}], ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{{3.524011027359375*^9, 3.524011042390625*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "0", ",", "1", ",", "1", ",", "1", ",", "0", ",", "1"}], 
+  "}"}]], "Output",
+ CellChangeTimes->{{3.524011036890625*^9, 3.5240110429375*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"IntegerDigits", "[", 
+  RowBox[{
+   RowBox[{"FromDigits", "[", 
+    RowBox[{
+     RowBox[{"{", "15", "}"}], ",", "16"}], "]"}], ",", "2"}], "]"}]], "Input",
+ CellChangeTimes->{3.52401107271875*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"1", ",", "1", ",", "1", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{3.524011074015625*^9}]
+}, Open  ]]
+},
+WindowSize->{1002, 596},
+WindowMargins->{{24, Automatic}, {Automatic, 30}},
+PrivateNotebookOptions->{"VersionedStylesheet"->{"Default.nb"[8.] -> False}},
+FrontEndVersion->"10.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (September 9, \
+2014)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[567, 22, 295, 7, 28, "Input"],
+Cell[865, 31, 97, 1, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[999, 37, 434, 10, 28, "Input"],
+Cell[1436, 49, 445, 9, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1918, 63, 335, 9, 28, "Input"],
+Cell[2256, 74, 190, 4, 28, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2483, 83, 221, 6, 28, "Input"],
+Cell[2707, 91, 135, 3, 28, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

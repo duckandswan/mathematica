@@ -1,0 +1,49 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 7.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      1031,         39]
+NotebookOptionsPosition[       660,         25]
+NotebookOutlinePosition[      1025,         40]
+CellTagsIndexPosition[       982,         37]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[StyleData[StyleDefinitions -> "Default.nb"]],
+
+Cell[StyleData["Section"],
+ FontColor->RGBColor[1, 0.5, 0]]
+},
+WindowSize->{615, 527},
+WindowMargins->{{Automatic, 97}, {Automatic, -6}},
+FrontEndVersion->"7.0 for Microsoft Windows (32-bit) (February 18, 2009)",
+StyleDefinitions->"PrivateStylesheetFormatting.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[545, 20, 49, 0, 37, 49, 0, "StyleData", "StyleDefinitions", ""],
+Cell[597, 22, 59, 1, 85, 26, 0, "StyleData", "Section", "All"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
